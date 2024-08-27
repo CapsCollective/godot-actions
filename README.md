@@ -54,7 +54,7 @@ The path to the Godot executable. Default `/Applications/Godot.app/Contents/MacO
 ### Example usage
 
 ```yaml
-- uses: CapsCollective/godot-actions/build-godot@v1.0
+- uses: CapsCollective/godot-actions/build-godot@v1.1
   with:
     build-dir: 'build'
 ```
