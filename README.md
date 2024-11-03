@@ -31,9 +31,9 @@ The path to the installed Godot executable.
 ### Example usage
 
 ```yaml
-- uses: CapsCollective/godot-actions/install-godot@v1.0
+- uses: CapsCollective/godot-actions/install-godot@v1.2
   with:
-    godot-version: 4.1
+    godot-version: 4.3
     install-templates: true
 ```
 
@@ -54,7 +54,7 @@ The path to the Godot executable. Default `/Applications/Godot.app/Contents/MacO
 ### Example usage
 
 ```yaml
-- uses: CapsCollective/godot-actions/build-godot@v1.1
+- uses: CapsCollective/godot-actions/build-godot@v1.2
   with:
     build-dir: 'build'
 ```
